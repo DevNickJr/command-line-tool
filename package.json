@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Customer management CLI",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./command.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^9.4.0",
-    "inquirer": "^9.0.2",
+    "inquirer": "^8.2.4",
     "mongodb": "^4.8.0",
     "mongoose": "^6.4.6"
   }
